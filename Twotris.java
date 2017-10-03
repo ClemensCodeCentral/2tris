@@ -8,7 +8,6 @@ package com.codecentral.twotris;
  * @since 10/1/17
  */
 public class Twotris {
-	int x = 0;
 
     /**
      * Starts a new instance of the game.
@@ -17,5 +16,6 @@ public class Twotris {
      */
     public static void main(String[] args) {
         // TODO: 10/1/17 Implement me
+        System.out.print("I was here");
     }
 }
