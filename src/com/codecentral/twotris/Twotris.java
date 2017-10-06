@@ -20,7 +20,7 @@ public class Twotris {
     }
 
     public static void startNewGame() {
-    	new Twotris().startGame()
+    	new Twotris().startGame();
     }
 
     private Twotris() {
