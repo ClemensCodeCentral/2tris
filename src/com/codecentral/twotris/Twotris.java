@@ -66,16 +66,16 @@ public class Twotris {
     		throw new IllegalArgumentException("Component definition");
     	}
 
-		public void rotate(Direction direction) {
-			if (direction == Direction.CLOCKWISE) {
-				// TODO: Do something with components
-			} else if (direction == Direction.COUNTER_CLOCKWISE) {
-				// TODO: Do something with components
-			}
-		}
+        public void rotate(Direction direction) {
+            if (direction == Direction.CLOCKWISE) {
+                // TODO: Do something with components
+            } else if (direction == Direction.COUNTER_CLOCKWISE) {
+                // TODO: Do something with components
+            }
+        }
     }
 
     public enum Direction {
-    	CLOCKWISE, COUNTER_CLOCKWISE
+        CLOCKWISE, COUNTER_CLOCKWISE
     }
 }
