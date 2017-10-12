@@ -9,6 +9,8 @@ package com.codecentral.twotris;
  */
 public class Twotris {
 
+	private Renderer render;
+
     /**
      * Starts a new instance of the game.
      *
@@ -71,7 +73,6 @@ public class Twotris {
 				// TODO: Do something with components
 			}
 		}
-
     }
 
     public enum Direction {
