@@ -22,7 +22,7 @@ public class Twotris {
     }
 
     public static void startNewGame() {
-    	new Twotris().startGame()
+    	new Twotris().startGame();
     }
 
     private Twotris() {
@@ -43,7 +43,7 @@ public class Twotris {
     	private int points;
     }
 
-    public static class Tetroid {
+    public static class Tetromino {
 
     	/**
     	 * A two-dimensional integer array representing color values
@@ -52,9 +52,9 @@ public class Twotris {
     	private int[][] components;
 
     	/**
-    	 * Creates a new Tetroid with the display
+    	 * Creates a new Tetromino with the display
     	 */
-    	public Tetroid(int[][] componentDefinition) {
+    	public Tetromino(int[][] componentDefinition) {
     		components = componentDefinition;
     	}
 

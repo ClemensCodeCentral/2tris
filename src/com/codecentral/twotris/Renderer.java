@@ -10,7 +10,7 @@ public class Renderer {
         graphics = g;
     }
 
-    public void renderTetroid(Twotris.Tetroid tetroid) {
+    public void renderTetroid(Twotris.Tetromino tetromino) {
 
     }
 
