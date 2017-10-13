@@ -79,3 +79,46 @@ public class Twotris {
         CLOCKWISE, COUNTER_CLOCKWISE
     }
 }
+
+class pointsTracker
+{
+	private static int points;
+	public static int levels(int lines, int level)
+	{
+		int points;
+		if (line == 1)
+		{
+			points = 40 * (level + 1);
+		}
+		if (line == 2)
+		{
+			points = 80 * (level + 1);
+		}
+		if (line == 3)
+		{
+			points = 120 * (level + 1);
+		}
+		if (line == 4)
+		{
+			points = 160 * (level + 1);
+		}
+		if (line == 5)
+		{
+			points = 200 * (level + 1);
+		}
+		if (line == 6)
+		{
+			points = 240 * (level + 1);
+		}
+		if (line == 7)
+		{
+			points = 280 * (level + 1);
+		}
+		if (line == 8)
+		{
+			points = 320 * (level + 1);
+		}
+
+		return 	points;
+	}
+}
